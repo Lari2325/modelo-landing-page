@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/awesome/css/all.min.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <a href="./"><img src="./assets/img/logo.png" alt=""></a>
+            <ul id="listMenu">
+                <li><a href="./" id="linkInicio">Ínicio</a></li>
+                <li><a href="#servicos" id="linkServicos">Serviços</a></li>
+                <li><a href="#sobre" id="linkSobre">Sobre</a></li>
+                <li><a href="#portfolio" id="linkPortfolio">Portfólio</a></li>
+                <li><button onclick="window.open('', '_blanck')"><i class="fa-brands fa-whatsapp"></i> Fale conosco</button></li>
+            </ul>
+            <button id="toggle"></button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                <button><i class="fa-brands fa-whatsapp"></i> Fature mais</button>
+            </div>
+        </section>
+        <section class="service" id="servicos">
+            <div class="container">
+                <h1>Serviços</h1>
+                <div class="cards">
+                    <div class="card">
+                        <img src="" alt="">
+                        <h4>Lorem Ipsum is</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <button><i class="fa-solid fa-plus"></i> Saiba mais</button>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h4>Lorem Ipsum is</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <button><i class="fa-solid fa-plus"></i> Saiba mais</button>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h4>Lorem Ipsum is</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <button><i class="fa-solid fa-plus"></i> Saiba mais</button>
+                    </div>
+                    <div class="card">
+                        <img src="" alt="">
+                        <h4>Lorem Ipsum is</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <button><i class="fa-solid fa-plus"></i> Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="sobre">
+            <div class="container">
+                <div class="col-1">
+                    <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of <br><br> tbootheunchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker.</p>
+                    <button><i class="fa-brands fa-whatsapp"></i> Entre em contato</button>
+                </div>
+                <div class="col-2">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <div class="shadow"></div>
+            <div class="risco"></div>
+        </section>
+        <div class="mensagemFormulario" style="display: none;"></div>
+        <section class="contact">
+            <div class="container">
+                <h1>Contato</h1>
+                <form id="contactForm" method="post" action="php/enviar.php">
+                    <div class="groups">
+                        <div class="group">
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome">
+                        </div>
+                        <div class="group">
+                            <label for="email">E-mail:</label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="groups">
+                        <div class="group">
+                            <label for="telefone">Telefone / Celular:</label>
+                            <input type="text" name="telefone" id="telefone">
+                        </div>
+                        <div class="group">
+                            <label for="assunto">Assunto:</label>
+                            <input type="text" name="assunto" id="assunto">
+                        </div>
+                    </div>
+                    <div class="group">
+                        <label for="mensagem">Mensagem:</label>
+                        <input type="text" name="mensagem" id="mensagem">
+                    </div>
+                    <button type="submit"><i class="fa-solid fa-paper-plane-top"></i> Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-column">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="./"><i class="fa-solid fa-paper-plane-top"></i> Inicio</a></li>
+                    <li><a href="#servicos"><i class="fa-solid fa-paper-plane-top"></i> Serviços</a></li>
+                    <li><a href="#sobre"><i class="fa-solid fa-paper-plane-top"></i> Sobre</a></li>
+                    <li><a href="#portfolio"><i class="fa-solid fa-paper-plane-top"></i> Portfólio</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Endereço</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Contato</h4>
+                <p><a href="">(17) 98867-9831</a> / <a href="">(17) 98867-9831</a></p>
+                <p><a href="mailto: exemple@email.com">exemple@email.com</a></p>
+            </div>
+            <div class="footer-inf">
+                <p>© 2024 layout 1</p>
+            </div>
+        </div>
+    </footer> 
+
+    <a href="">
+        <div class="botaoflutuante">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+    </a>
+
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/enviar.js"></script>
+</body>
+</html>
